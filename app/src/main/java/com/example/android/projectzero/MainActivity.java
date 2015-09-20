@@ -40,31 +40,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void firstApp(View view) {
+
+//Shows toast upon click
         Toast.makeText(this, "This will open my Spotify Streamer!", Toast.LENGTH_SHORT).show();
 
     }
 
     public void secondApp(View view) {
+        //Shows toast upon click
         Toast.makeText(this, "This will open my Scores App!", Toast.LENGTH_SHORT).show();
 
     }
 
     public void thirdApp(View view) {
+
+        //Shows toast upon click
         Toast.makeText(this, "This will open my Library App!", Toast.LENGTH_SHORT).show();
 
     }
 
     public void fourthApp(View view) {
-
+//Shows toast upon click
         Toast.makeText(this, "This will open my Build it Bigger App!", Toast.LENGTH_SHORT).show();
     }
 
     public void fifthApp(View view) {
+//Shows toast upon click
         Toast.makeText(this, "This will open my XYZ reader!", Toast.LENGTH_SHORT).show();
 
     }
 
     public void sixthApp(View view) {
+        //Shows toast upon click
         Toast.makeText(this, "This will open my Capstone App!", Toast.LENGTH_SHORT).show();
 
     }

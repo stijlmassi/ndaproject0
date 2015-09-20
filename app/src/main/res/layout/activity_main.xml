@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Nanodegree Apps!!"
+            android:textSize="20sp"
+            android:paddingTop="30sp"
+            android:paddingBottom="35sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:onClick="firstApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90sp"
+            android:layout_marginRight="90sp"
+            android:text="@string/app_one"
+            android:layout_marginBottom="10sp"/>
+
+        <Button
+            android:onClick="secondApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90sp"
+            android:layout_marginRight="90sp"
+            android:text="@string/app_two"
+            android:layout_marginBottom="10sp"/>
+
+        <Button
+            android:onClick="thirdApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90sp"
+            android:layout_marginRight="90sp"
+            android:text="@string/app_three"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10sp"/>
+
+        <Button
+            android:onClick="fourthApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90sp"
+            android:layout_marginRight="90sp"
+            android:text="@string/app_four"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10sp"/>
+
+        <Button
+            android:onClick="fifthApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90sp"
+            android:layout_marginRight="90sp"
+            android:text="@string/app_five"
+            android:layout_marginBottom="10sp"/>
+
+        <Button
+            android:onClick="sixthApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90sp"
+            android:layout_marginRight="90sp"
+            android:text="@string/app_six"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark"
+            />
+
+    </LinearLayout>
+</ScrollView>
